@@ -1,0 +1,15 @@
+# robots.txt for gopinathkanniyappan.me
+User-agent: *
+Allow: /
+
+# Prevent indexing of backend/admin areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /server/
+Disallow: /api/
+
+# A small polite crawl delay for non-Google bots (Google ignores this)
+Crawl-delay: 5
+
+# Sitemap
+Sitemap: https://gopinathkanniyappan.me/sitemap.xml
